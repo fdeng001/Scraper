@@ -1,5 +1,5 @@
 To whom it may concerned,
-
+Introduction:
 This is a Walmart web crawler in java. The program have two functionalities.
 If the input is only one argument, like "digital camera", the program will show up the total results of that item on walmart.com.
 If the input is two arguments, like "digital camera" and 2, the program will show up the item list in the Page 2.
@@ -18,6 +18,11 @@ If the input is two arguments, like "digital camera" and 2, the program will sho
 		price 40.
 ************************************
 
+Files list:
+"Scaper" folder is the source code of this program.
+Download scraper.jar to run the program in the terminal.
+
+How to Run:
 open your teminal or cmd window and type command like below:
 
 This program handle the two queries below:
@@ -28,6 +33,7 @@ java -jar scraper.jar <keyword> <page number> (e.g. java -jar Assignment.jar "di
 
 The program using Jsoup library. You can find it in the source code folder(\Assignment\Scraper\lib).
 
+Test cases:
 I have made some test about the program, working good for me.
 below are 3 basic test cases:
 1. keyward : "digital camera"
